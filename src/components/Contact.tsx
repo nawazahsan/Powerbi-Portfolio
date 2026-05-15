@@ -38,7 +38,7 @@ export default function Contact() {
           <div className="lg:col-span-2 space-y-6">
             <div className="card-bg rounded-2xl p-6 space-y-5">
               {[
-                { icon: Mail, label: 'Email', value: 'ahsan@example.com', href: 'mailto:ahsan.ntu@gmail.com' },
+                { icon: Mail, label: 'Email', value: 'ahsan.ntu@gmail.com', href: 'mailto:ahsan.ntu@gmail.com' },
                 { icon: Globe, label: 'Location', value: 'Germany · Remote Worldwide', href: null },
                 { icon: Clock, label: 'Availability', value: 'Mon–Fri · 9am–6pm GMT+2', href: null },
                 { icon: MessageSquare, label: 'Response Time', value: 'Usually within 24 hours', href: null },
