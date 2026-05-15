@@ -9,7 +9,7 @@ const highlights = [
   {
     icon: Award,
     title: 'Microsoft LinkedIn Certified',
-    desc: 'Power BI Data Analyst Short Courses',
+    desc: 'Power BI Data Analyst Certification',
   },
   {
     icon: GraduationCap,
@@ -46,8 +46,8 @@ export default function About() {
               <p>
                 I'm <span className="text-white font-semibold">Ahsan Nawaz</span>, a Power BI Developer
                 and Data Analyst with over 9 years of hands-on experience designing and deploying
-                interactive business intelligence solutions for clients across finance, retail,
-                manufacturing, and healthcare sectors.
+                interactive business intelligence solutions for clients across finance, operations, Ecommerce,
+                manufacturing, public safety, and retail.
               </p>
               <p>
                 My expertise spans the full data lifecycle — from raw data ingestion and transformation
@@ -64,7 +64,7 @@ export default function About() {
 
             {/* Tags */}
             <div className="mt-8 flex flex-wrap gap-2">
-              {['Power BI', 'DAX', 'Power Query', 'SQL Server', 'Azure', 'Python', 'Excel', 'Data Modeling', 'n8n automation', 'Project Management'].map((t) => (
+              {['Power BI', 'DAX', 'Power Query', 'SQL Server', 'Azure', 'AWS', 'Python', 'Excel', 'Data Modeling', 'n8n automation', 'Project Management'].map((t) => (
                 <span
                   key={t}
                   className="px-3 py-1 rounded-full text-xs font-medium bg-blue-500/10 border border-blue-500/20 text-blue-300"
