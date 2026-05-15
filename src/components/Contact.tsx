@@ -38,9 +38,9 @@ export default function Contact() {
           <div className="lg:col-span-2 space-y-6">
             <div className="card-bg rounded-2xl p-6 space-y-5">
               {[
-                { icon: Mail, label: 'Email', value: 'ahsan@example.com', href: 'mailto:ahsan@example.com' },
-                { icon: Globe, label: 'Location', value: 'Pakistan · Remote Worldwide', href: null },
-                { icon: Clock, label: 'Availability', value: 'Mon–Sat · 9am–6pm PKT', href: null },
+                { icon: Mail, label: 'Email', value: 'ahsan@example.com', href: 'mailto:ahsan.ntu@gmail.com' },
+                { icon: Globe, label: 'Location', value: 'Germany · Remote Worldwide', href: null },
+                { icon: Clock, label: 'Availability', value: 'Mon–Fri · 9am–6pm GMT+2', href: null },
                 { icon: MessageSquare, label: 'Response Time', value: 'Usually within 24 hours', href: null },
               ].map(({ icon: Icon, label, value, href }) => (
                 <div key={label} className="flex items-start gap-4">
@@ -66,7 +66,7 @@ export default function Contact() {
               <p className="text-xs text-slate-500 uppercase tracking-widest font-semibold mb-4">Follow Me</p>
               <div className="flex flex-col gap-3">
                 <a
-                  href="https://github.com/ahsannawaz"
+                  href="https://github.com/nawazahsan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-blue-500/30 hover:bg-slate-800 transition-all duration-200 group"
@@ -78,7 +78,7 @@ export default function Contact() {
                   </div>
                 </a>
                 <a
-                  href="https://linkedin.com/in/ahsannawaz"
+                  href="https://www.linkedin.com/in/ahsan-nawaz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-blue-500/30 hover:bg-slate-800 transition-all duration-200 group"
