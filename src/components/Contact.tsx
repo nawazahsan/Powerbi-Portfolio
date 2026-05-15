@@ -9,14 +9,34 @@ export default function Contact() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setStatus('sending');
-    // Simulate submission delay
-    await new Promise((r) => setTimeout(r, 1200));
-    setStatus('sent');
-    setForm({ name: '', email: '', subject: '', message: '' });
-  };
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setStatus('sending');
+  try {
+    const response = await fetch('/api/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(form),
+    });
+    if (response.ok) {
+      setStatus('sent');
+      setForm({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
+    } else {
+      alert('Failed to send message');
+      setStatus('idle');
+    }
+  } catch (error) {
+    console.error(error);
+    setStatus('idle');
+  }
+};
 
   return (
     <section id="contact" className="py-24 relative" style={{ background: 'var(--bg-secondary)' }}>
