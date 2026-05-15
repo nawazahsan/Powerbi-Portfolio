@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Mail, Send, Github, Linkedin, MessageSquare, Clock, Globe } from 'lucide-react';
 
 export default function Contact() {
@@ -9,7 +9,8 @@ export default function Contact() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-const handleSubmit = async (e) => {
+{/*const handleSubmit = async (
+  e: React.FormEvent<HTMLFormElement>): Promise<void> => {
   e.preventDefault();
   setStatus('sending');
   try {
@@ -36,7 +37,7 @@ const handleSubmit = async (e) => {
     console.error(error);
     setStatus('idle');
   }
-};
+};*/}
 
   return (
     <section id="contact" className="py-24 relative" style={{ background: 'var(--bg-secondary)' }}>
