@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="text-white font-semibold text-sm">Ahsan Nawaz</p>
-              <p className="text-slate-600 text-xs">Power BI Developer</p>
+              <p className="text-slate-600 text-xs">Power BI Expert</p>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ export default function Footer() {
           {/* Social */}
           <div className="flex items-center gap-3">
             <a
-              href="https://github.com/ahsannawaz"
+              href="https://github.com/nawazahsan"
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700/60 flex items-center justify-center text-slate-500 hover:text-white hover:border-slate-600 transition-all"
@@ -53,7 +53,7 @@ export default function Footer() {
               <Github size={14} />
             </a>
             <a
-              href="https://linkedin.com/in/ahsannawaz"
+              href="https://linkedin.com/in/ahsan-nawaz"
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 rounded-lg bg-slate-800 border border-slate-700/60 flex items-center justify-center text-slate-500 hover:text-blue-400 hover:border-blue-500/30 transition-all"
