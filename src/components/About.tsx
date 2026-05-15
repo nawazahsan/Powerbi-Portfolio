@@ -44,9 +44,9 @@ export default function About() {
           <div>
             <div className="space-y-5 text-slate-400 leading-relaxed text-sm">
               <p>
-                I'm <span className="text-white font-semibold">Ahsan Nawaz</span>, a Power BI Developer
-                and Data Analyst with over 9 years of hands-on experience designing and deploying
-                interactive business intelligence solutions for clients across finance, operations, Ecommerce,
+                I'm <span className="text-white font-semibold">Ahsan Nawaz</span>, a Power BI Expert
+                and a Senior Data Analyst with over 9 years of hands-on experience designing and deploying
+                interactive business intelligence solutions for clients across finance, operations, e-commerce,
                 manufacturing, public safety, and retail.
               </p>
               <p>
@@ -57,7 +57,7 @@ export default function About() {
               </p>
               <p>
                 I believe great data visualization is equal parts science and storytelling. Every chart
-                I build answers a question; every dashboard tells a story that empowers its audience
+                I build answers to a question; every dashboard tells a story that empowers its audience
                 to act with confidence.
               </p>
             </div>
